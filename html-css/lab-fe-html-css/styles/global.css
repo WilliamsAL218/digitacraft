@@ -1,121 +1,121 @@
 #stylessheet
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet"href="styles/global.css">
-</head>
-<body>
+    </head>
+    <body>
     <h1>hello world</h1>
     <p style="color:white; background-color:gray;">
         This is an example of inline styling. 
-      </p>
-      <p style="color:red;background-color:gray;"></ p>
-</body>
-</html>
+        </p>
+        <p style="color:red;background-color:gray;"></ p>
+    </body>
+    </html>
 
 
-<html>
-  <head>
+    <html>
+    <head>
     <style>
-      css style rules
+        css style rules
     </style>
-  </head>
-</html>
+    </head>
+    </html>
 
-<style>
-  p{ color: red;}
-</style>
+    <style>
+    p{ color: red;}
+    </style>
 
 
 
-<!-- Type Selector....	h1, h2, h3
-Class Selector....	.note, p.note
-ID Selector...	#introduction
-Child Selector....	li > a
-Descendant Selector...	p a
-Adjacent Sibling Selector...	h1+p -->
+    <!-- Type Selector....	h1, h2, h3
+    Class Selector....	.note, p.note
+    ID Selector...	#introduction
+    Child Selector....	li > a
+    Descendant Selector...	p a
+    Adjacent Sibling Selector...	h1+p -->
 
-<!-- a{
+    <!-- a{
 
     //This applies to all < a > tags
     // on the page
-    
+
     }
     div > li{
-    
+
     //This applies to all < link > tags
     // on the page thag are direct
     //children of a < div > tag
-    
+
     }
     // * is a wild card - The styles here
     // affect every element on the page -->
 
     <style>
         .light{
-          color: black;
-          background-color: white;
-          padding-bottom: 10px;
+            color: black;
+            background-color: white;
+            padding-bottom: 10px;
         }
         .dark{
-          color: white;
-          background-color: black;
-          padding-bottom: 10px;
+            color: white;
+            background-color: black;
+            padding-bottom: 10px;
         }
-      </style>
-      <p class="light">Light Paragraph</p>
-      <p class="dark">Dark Paragraph</p>
-      <p class="light">Light Paragraph</p>
-      <p class="dark">Dark Paragraph</p> 
+        </style>
+        <p class="light">Light Paragraph</p>
+        <p class="dark">Dark Paragraph</p>
+        <p class="light">Light Paragraph</p>
+        <p class="dark">Dark Paragraph</p> 
 
-      <div class="myClass">
+        <div class="myClass">
         The Content
-      </div>
-      
-      <style>
-      .light{
+        </div>
+        
+        <style>
+        .light{
         color: black;
         background-color: white;
         padding-bottom: 10px;
-      }
-      #dark{
+        }
+        #dark{
         color: white;
         background-color: black;
         padding-bottom: 10px;
-      }
+        }
     </style>
 
-<p class="light">Light Paragraph</p>
-<p id="dark">Dark Paragraph</p>
-<p class="light">Light Paragraph</p>
-<p class="dark">Dark Paragraph</p>
+    <p class="light">Light Paragraph</p>
+    <p id="dark">Dark Paragraph</p>
+    <p class="light">Light Paragraph</p>
+    <p class="dark">Dark Paragraph</p>
 
-<div id="myStyle">
-  The Content
-</div>
-#myStyle {
+    <div id="myStyle">
+    The Content
+    </div>
+    #myStyle {
     background-color: #ccc;
     padding: 50px;
     border: 20px solid black;
     margin: 40px;
-  }
+    }
 
-  <div>
-  The Content
-</div>
+    <div>
+    The Content
+    </div>
 
-div {
-    background-color: #ccc;
+    div {
+    background-color: #ccc;s
     padding: 50px;
     border: 20px solid black;
     margin: 40px;
-  }
+    }
 
-  <head>
-  <link href="file.css" rel="stylesheet" type="text/css">
-</head>
+    <head>
+    <link href="file.css" rel="stylesheet" type="text/css">
+    </head>
